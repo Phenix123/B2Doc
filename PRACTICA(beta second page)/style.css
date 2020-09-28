@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=cyrillic');
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+
+/*INDEX CSS*/
+
+body {
+    margin: 0;
+    background: #F9F9F9;
+}
+
+.main_index_container {
+    width: 30%;
+    margin: 7% auto 0 auto;
+    display: flex;
+}
+
+.img {
+    border-radius: 300px;
+}
+
+.main_text {
+    font-family: Roboto;
+    line-height: 24px;
+    align-items: center;
+    text-align: right;
+    margin-left: 7%;
+}
+
+.main_text_first {
+    font-style: normal;
+    font-weight: normal;
+    color: #606060;
+    font-size: 40px;
+}
+
+.main_text_second {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(96, 96, 96, 0.72);
+}
+
+.register_container {
+    background-color: #F9F9F9;
+    width: 40%;
+    margin: 2rem auto;
+}
+
+.rectangle {
+    background: #F9F9F9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.rectangle_element {
+    padding: 6% 3% 3% 3%;
+    width: 100%;
+}
+
+#tel {
+    padding: 2%;
+    width: 100%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.38);
+    background: rgba(51, 51, 51, 0.06);
+    border-radius: 4px 4px 0px 0px;
+}
+
+#password {
+    padding: 2%;
+    width: 100%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    background: rgba(51, 51, 51, 0.06);
+    border-radius: 4px 4px 0px 0px;
+}
+
+.calm {
+    margin: 0 35%;
+    width: 30%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.0357143em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #00BCD4;
+    border-radius: 2px;
+    padding: 1.5% 10%;
+    text-decoration: none;
+}
+
+
+/*MAIN_PAGE CSS*/
+
+.header {
+    width: 100%;
+    background-color: #00BCD4;
+    display: flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header_content {
+    padding: 2% 2% 1% 2%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+.header_content_left {
+    text-align: right;
+    display: flex;
+}
+.main_page_img{
+    border-radius: 300px;
+    width: 5rem;
+    height: auto;
+}
+.main_page_text {
+    margin: auto 0 auto 3%;
+}
+
+.main_page_text_first {
+    margin-bottom: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 24px;
+    text-align: right;
+    color: #606060;
+}
+
+.main_page_text_second {
+    margin-top: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 24px;
+    align-items: center;
+    text-align: right;
+    color: rgba(96, 96, 96, 0.72);
+}
+.header_content_right{
+    display: flex;
+    margin: auto auto auto 70%;
+}
+.main_page_user_img{
+    width: 2rem;
+    height: auto;
+}
+.user_name {
+    padding: 1%;
+    margin-left: 20%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.main_page_container{
+    display: flex;
+    margin: 3% auto;
+    width: 70%;
+    background: #F9F9F9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.main_page_add_container{
+    width: 100%;
+    display: flex;
+}
+.main_page_main_text{
+    margin-left: 5%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 24px;
+    color: #000000;
+}
+.add_patient{
+    width: 15%;
+    padding: 1.2% 2%;
+    margin: auto 5%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.0357143em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #00BCD4;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.search{
+    margin: auto auto auto 30%;
+    background: #FFFFFF;
+    border: 1px solid #AAAAAA;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.search .submit {
+    background: url(img/Vector.jpg) 50% no-repeat;
+    height: 100%;
+}
